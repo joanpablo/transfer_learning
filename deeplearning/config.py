@@ -21,8 +21,8 @@ CLASSES = ['backpackbag', 'bottles', 'cup', 'keyboard']
 BATCH_SIZE = 32
 
 # set the images size
-IMAGE_WIDTH = 64
-IMAGE_HEIGHT = 64
+IMAGE_WIDTH = 256
+IMAGE_HEIGHT = 256
 
 # set the amount of samples per class
 AMOUNT_PER_CLASS = 500
