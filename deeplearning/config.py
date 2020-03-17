@@ -34,4 +34,4 @@ LE_PATH = os.path.sep.join([OUTPUT, 'le.cpickle'])
 CSV_PATH = os.path.sep.join([OUTPUT, 'features'])
 
 # set the path to the serialized model after training
-MODEL_PATH = os.path.sep.join([OUTPUT, 'model.h5'])
+MODEL_PATH = os.path.sep.join([OUTPUT, 'model.cpickle'])
