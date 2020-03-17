@@ -10,6 +10,7 @@ from deeplearning import config
 from imutils import paths
 from tqdm import tqdm
 import numpy as np
+import pickle
 import random
 import os
 
@@ -81,3 +82,8 @@ for split in (config.TRAIN_PATH, config.VAL_PATH, config.TEST_PATH):
     # closing and freeing resources
     progress.close()
     csv.close()
+
+# save the label encoder to disk
+le_file = open(config.LE_PATH, 'wb')
+le_file.write(pickle.dumps(le))
+le_file.close()
