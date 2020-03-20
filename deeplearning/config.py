@@ -35,3 +35,6 @@ CSV_PATH = os.path.sep.join([OUTPUT, 'features'])
 
 # set the path to the serialized model after training
 MODEL_PATH = os.path.sep.join([OUTPUT, 'model.cpickle'])
+
+# set the url of the ip camera
+IP_CAMERA_URL = 'http://192.168.43.1:8080/video'
