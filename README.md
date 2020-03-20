@@ -6,6 +6,7 @@ In this project I use a pre trained Neural Network as a features extractor and t
 use those features to train a Logistic Regression model for identifying between 4 classes 
 (cups, keyboards, backpack bags and bottles).
 
-## Dependencies 
+## Principal Dependencies 
 * Tensorflow 2.1.0
 * Keras 2.3.1
+* scikit-learn 0.22.1
