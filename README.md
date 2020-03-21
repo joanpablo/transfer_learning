@@ -1,5 +1,5 @@
 # Transfer Learning
-A simple project about how to train a neural network with very few samples (500 images per class and 4 classes) 
+A simple project about how to train a neural network with very few samples (about 300 images per class and 4 classes) 
 using Transfer Learning in Keras &amp; Tensorflow.
 
 In this project I use a pre trained Neural Network as a features extractor and them 
